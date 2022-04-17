@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: rgb(255, 145, 0);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    width: 100px;
+    height: 70px;
+    margin: auto;
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Reset Button */
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(26, 121, 216);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffe710;
+  }
+  
+button:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffe710;
+    text-shadow: 0 0 5px #ffe710;
+  }
+
+/* Player turn read-out text */
+#print {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: rgb(26, 121, 216);
+    font-size: 25px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+    color: rgb(26, 121, 216);
+    font-size: 20px;
+}
