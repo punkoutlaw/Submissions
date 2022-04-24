@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: large;
+    border-style: ridge;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    margin: auto;
+    max-width: 80%;
+    text-align: left;
+}
+
+#edit-box {
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 80%;
+    text-align: left;
+}
+
+td {
+    background-color:lightblue;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.to-do {
+    background: transparent !important;
+}
+
+#counter {
+    text-align: center;
+}
