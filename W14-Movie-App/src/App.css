@@ -97,6 +97,21 @@ p {
   height: 25vw;
   object-fit: cover;
 }
+#cd-body {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#rv-form {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 #rating {
   font-family: 'Cooper Black', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -145,6 +160,6 @@ h6 {
   padding: 20px;
   background: #ffffff;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 5px;
   margin: auto;
 }

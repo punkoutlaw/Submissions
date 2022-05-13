@@ -8,14 +8,14 @@ class Main extends React.Component {
             <div>
                 <Container>
                 <Row className='body bg-secondary border border-dark'>
-                    <Col>
+                    <Col md={6}  id="cd-body">
                     <br></br>
                         <Card border='dark'>
                             <div className='card-header'>
                             <br></br>
                             <Card.Title>Harry Potter and the Goblet of Fire</Card.Title>
                             </div>
-                            <div className='card-body'>
+                            <div className='card-body' id="cd-body">
                             <br></br>
                             <Card.Img variant="top" className="center" src="https://static.free-putlockers.com/dist/images/McpiUC-e_JqUZKWBZZT0GJ7mUQ7KsPfDtKRKQ-tiCPmIuPm9m6bsHaMBPxo-WCAWgbydIVeNpoV9t-w_aME5RLOjJeb6LLXKjbZX3Xiotdyb1nDGfoNftJLgmTnV7_9u.jpg" />
                             </div>
@@ -30,13 +30,13 @@ class Main extends React.Component {
                         </Card>
                     </Col>
                     <div className='card-body'>
-                    <Col className='card border border-dark'>
+                    <Col md={6} id="rv-form">
                         <ReviewForm />
                     </Col>
                     </div>
                 </Row>
                 <Row className='body bg-secondary border border-dark'>
-                    <Col>
+                    <Col md={6}  id="cd-body">
                     <br></br>
                     <Card border='dark'>
                     <div className='card-header'>
@@ -58,13 +58,13 @@ class Main extends React.Component {
                 </Card>
                     </Col>
                     <div className='card-body'>
-                    <Col className='card border border-dark'>
+                    <Col md={6} id="rv-form">
                     <ReviewForm />
                     </Col>
                     </div>
                 </Row>
                 <Row className='body bg-secondary border border-dark'>
-                    <Col>
+                    <Col md={6}  id="cd-body">
                     <br></br>
                     <Card border='dark'>
                         <div className='card-header'>
@@ -86,7 +86,7 @@ class Main extends React.Component {
                 </Card>
                     </Col>
                     <div className='card-body'>
-                    <Col className='card border border-dark'>
+                    <Col md={6} id="rv-form">
                     <ReviewForm />
                     </Col>
                     </div>
