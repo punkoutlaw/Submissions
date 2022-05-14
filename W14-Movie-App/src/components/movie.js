@@ -7,7 +7,7 @@ class Main extends React.Component {
         return(
             <div>
                 <Container>
-                <Row className='body bg-secondary border border-dark'>
+                <Row className='body bg-dark border border-light'>
                     <Col md={6}  id="cd-body">
                     <br></br>
                         <Card border='dark'>
@@ -35,7 +35,7 @@ class Main extends React.Component {
                     </Col>
                     </div>
                 </Row>
-                <Row className='body bg-secondary border border-dark'>
+                <Row className='body bg-dark border border-light'>
                     <Col md={6}  id="cd-body">
                     <br></br>
                     <Card border='dark'>
@@ -63,7 +63,7 @@ class Main extends React.Component {
                     </Col>
                     </div>
                 </Row>
-                <Row className='body bg-secondary border border-dark'>
+                <Row className='body bg-dark border border-light'>
                     <Col md={6}  id="cd-body">
                     <br></br>
                     <Card border='dark'>
