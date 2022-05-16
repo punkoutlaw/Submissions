@@ -60,11 +60,22 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-a:hover {
-  color:#61dafb;
+a:link {
+  color: #15a2c8;
+}
+
+a:active {
+  color: #000;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:link:hover {
+  color:gold;
 }
 
 p {
