@@ -6,7 +6,7 @@ import Footer from "./footer";
 class LoginPage extends React.Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div>
                 <NavBar />
                 <br></br>
                 <br></br>

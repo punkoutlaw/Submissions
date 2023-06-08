@@ -20,6 +20,14 @@ code {
   background-color: cornflowerblue !important; 
 }
 
+.login {
+  width: 25%;
+}
+
+.quote {
+  width: 50%;
+}
+
 h3 {
   font-family: 'Berlin Sans FB';
 }
@@ -30,4 +38,28 @@ p {
 
 .card-header {
   background-color: cornflowerblue !important;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .login {
+    width: 90%;
+  }
+
+  .quote {
+    width: 85%;
+  }
+  
+}
+
+@media only screen and (max-width: 844px) {
+
+  .login {
+    width: 75%;
+  }
+
+  .quote {
+    width: 85%;
+  }
+
 }

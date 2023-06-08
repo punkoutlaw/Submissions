@@ -4,7 +4,7 @@ import MyButton from "./button";
 class UserInput extends React.Component {
     render () {
         return (
-            <div className="card w-25 mx-auto border-primary">
+            <div className="card mx-auto border-primary login">
                 <div className="card-header bg-primary border-primary">
                     <h3>Login Info</h3>
                 </div>
